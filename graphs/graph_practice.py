@@ -75,7 +75,10 @@ class Graph:
 		visited = set()
 		self.dfs_helper(root_node, visited)
 
-
+'''
+Time Complexity: O(V+E) where V is the number of vertices in the graph and E is the number of edges
+Auxiliary Space: O(V+E)
+'''
 if __name__ == "__main__":
 	g = Graph()
 	g.add_node(0, 1)
