@@ -6,6 +6,7 @@ graph = {
     4: [0, 1, 3]
 }
 
+
 def dfs(graph, start):
 	visited, stack = set(), [start]
 
