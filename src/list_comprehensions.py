@@ -14,7 +14,7 @@ print('backward range skip by 2', backward_range)
 even_range = [x for x in range(1, 11) if x % 2 == 0]
 print('even range', even_range)
 
-# lsit comprehension with conditionals
+# list comprehension with conditionals
 new_list = ['even' if x % 2 == 0 else 'number three' if x == 3 else 'odd' for x in range(1, 10)]
 print('two condition list comprehension', new_list)
 
@@ -47,7 +47,7 @@ else:
 
 c = False
 result = ('a', 'b')[c]
-
+print('result true or false: ', result)
 
 # lambda
 a = 10

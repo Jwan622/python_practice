@@ -14,3 +14,10 @@ a = 10
 b = 20
 some_l = (lambda: a, lambda a: b)[1](2)
 print('some l', some_l)
+
+# some tuple stuff
+t = (1,2,3)[0]
+print('tuple t:', t)
+
+test_list = [1,2,3]
+print('does this int(str) work?', str(test_list))
